@@ -2,12 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:login_page_app/auth_screen.dart';
 import 'constants.dart';
 
-void main(){
+void main() {
   runApp(login_page_app());
 }
 
 class login_page_app extends StatelessWidget {
-  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -21,7 +20,7 @@ class login_page_app extends StatelessWidget {
           border: InputBorder.none,
           hintStyle: TextStyle(color: Colors.white),
           contentPadding: EdgeInsets.symmetric(
-            vertical: defpaultPadding * 1.2, horizontal: defpaultPadding),
+              vertical: defpaultPadding * 1.2, horizontal: defpaultPadding),
         ),
       ),
       home: AuthScreen(),
