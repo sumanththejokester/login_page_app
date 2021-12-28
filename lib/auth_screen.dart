@@ -66,7 +66,7 @@ class _AuthScreenState extends State<AuthScreen> {
             duration: defaultDuration,
               width: _size.width,
               bottom: _size.height * 0.1,
-              right: _size.width * 0.05,
+              right: _isShowSignUp ? -_size.width * 0.05 : _size.width * 0.05,
               child: SocalButtons()),
         ],
       ),
