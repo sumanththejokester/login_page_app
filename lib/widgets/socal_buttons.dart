@@ -13,17 +13,26 @@ class SocalButtons extends StatelessWidget {
         CircleAvatar(
           radius: 20,
           backgroundColor: Colors.white60,
-          child: SvgPicture.asset('assets/google.svg',color: login_bg,),
+          child: SvgPicture.asset(
+            'assets/google.svg',
+            color: login_bg,
+          ),
         ),
         CircleAvatar(
           radius: 20,
           backgroundColor: Colors.white60,
-          child: SvgPicture.asset('assets/facebook.svg',color: login_bg,),
+          child: SvgPicture.asset(
+            'assets/facebook.svg',
+            color: login_bg,
+          ),
         ),
         CircleAvatar(
           radius: 20,
           backgroundColor: Colors.white60,
-          child: SvgPicture.asset('assets/linkedin.svg',color: login_bg,),
+          child: SvgPicture.asset(
+            'assets/linkedin.svg',
+            color: login_bg,
+          ),
         )
       ],
     );
